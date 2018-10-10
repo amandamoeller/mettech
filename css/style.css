@@ -1,0 +1,404 @@
+Html, body {
+    background-color: #1F3650; 
+    margin:0;
+	text-align: center;
+
+}
+
+.tekst {
+    font-family: 'Muli', sans-serif; 
+    font-size: 35px;
+    line-height: 1.4;
+    color: white;
+    text-align: center;
+}
+
+.overskrift {
+    font-family: 'Muli', sans-serif; 
+    font-size: 60px;
+    color: white; 
+    text-align: center;
+    
+}
+
+.tekst-bigger {
+    font-size: 45px;
+    margin:0;
+    
+}
+
+.tekst-smaller {
+    font-size: 25px;
+    margin-top: 4px;
+}
+
+/*---HEADER---*/
+
+h1 {
+    font-family: lily script one; 
+    color: #57B7CB;
+    font-size: 80px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 15px;
+}
+header a {
+		text-decoration: none;
+
+}
+
+#tilbage {
+    width: 40%;
+    height: 40%; 
+    margin-left: 25px;
+    margin-top: 35px;
+}
+
+#bog {
+	width: 80px;
+    margin-right: 35px;
+    margin-top: 22px;
+}
+
+header {
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    
+}
+
+
+/*---FORSIDE---*/
+
+
+#welcomemette {
+    width:620px;
+    margin-top:38px;
+      
+}
+
+.hi{
+    margin-bottom:10px;
+}
+.welcome {
+    margin-top:0;
+}
+
+#headerforside {
+    display: flex; 
+    justify-content: center;
+}
+
+#videre {
+    width:25%;
+    height: 40%;
+    margin-top: 8%;
+    
+}
+
+.videre-container {
+    display: flex;
+    justify-content: center;
+}
+
+.welcomespace{
+    margin: 150px;
+}
+
+.space3 {
+    margin-bottom: 150px;
+}
+
+/*---GREAT---*/
+
+
+#hejhej {
+    width: 80%;
+    margin-left: 7%;
+    margin-top: 8px;
+    
+}
+.bunden {
+    margin-bottom: 45px;;
+}
+
+
+/*---SEARCH---*/ 
+
+.button a{
+    
+    color: #FFFFFF;
+    text-decoration:none; 
+}
+
+button {
+    border-radius: 10px;
+    background: none;
+    color: #fff;
+    border: 2px #57B7CB solid;
+    padding: 7px 150px;
+    display: inline-block;
+    font-size: 50px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button-section {
+    text-align: center;
+}
+    
+.space {
+    margin: 200px 
+}
+
+/*---RESULT---*/ 
+
+h3 {
+	text-decoration: none;
+    color: white;
+}
+
+#indhold {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#indhold a {
+	text-decoration: none;
+	color: red;
+   
+}
+
+#indhold h3 {
+  font-family: 'Muli', sans-serif;
+    color: #57B7CB;
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 130px;
+	text-decoration: underline;
+	text-decoration-color: #1F3650;
+    color: white;
+ }
+
+#indhold p {
+	padding-top: 10px;
+	font-weight: lighter;
+	color: #57b7cb;
+	
+}
+
+
+.enForside {
+  width: 300px;
+  height: auto;
+  
+}
+
+p {
+  font-family: 'Muli', sans-serif;
+    font-size: 25px;
+    margin-top: 4px;
+    color: white;
+    text-align: center;
+}
+
+
+
+/*---STUDENTNUMBER---*/
+
+input[type=text], select {
+    width: 460px;
+    padding: 1px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 30px;
+    height: 70px;
+
+}
+
+input[type=submit] {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 44px;
+    cursor: pointer;
+}
+
+#form {
+    border-radius: 5px;
+    padding: 50px;
+    text-align: center;
+}
+
+
+.ups-mette {
+    width: 740px;
+    margin-top: 60px;
+}
+
+/*---categories---*/
+
+.blue {
+    color: #57B7CB;
+}
+
+ul {
+    list-style: none;
+    margin-right: 50px;
+}
+
+.top {
+    margin-top: 70px;
+}
+
+#topp {
+    margin-top:60px;
+}
+
+
+.small-tekst {
+    font-family: 'Muli', sans-serif; 
+    font-size: 30px;
+    line-height: 1.6;
+    color: white;
+    text-align: center;
+    margin-top:0;
+}
+h2 {
+
+    font-family: 'Muli', sans-serif; 
+    color: #57B7CB;
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 15px;
+    
+    
+}
+.spacecat {
+    margin-left: 60px;
+    margin-right:60px;
+}
+
+
+/*---UX BOOK---*/
+
+#uxbook {
+    width: 400px;
+    padding-top: 20px;
+}
+
+#blue-small {
+    color: #57B7CB;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+#bog-tekst {
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+
+#bog-margin {
+    
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+/*---CART---*/
+
+#bog-cart {
+    width: 200px;
+    height: 300px;
+}
+
+.cart-container {
+    display: flex;
+    width: 100%;
+    margin-top: 130px;
+margin-left: 110px;
+    
+    
+}
+
+.cart-container-to > p {
+    text-align: left;
+}
+
+.cart-container-to {
+    padding-left: 40px;
+}
+
+#blue-small {
+    padding-top: 120px;
+}
+
+.shopping-cart {
+    margin-top: 70px;
+}
+
+#order {
+    margin-top: 400px;
+}
+
+.cart-container-to > .tekst {
+    margin-bottom: 0;
+}
+
+
+a {
+    text-decoration: none; 
+    color: white;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #1f3650;
+    margin: 50% auto; /* 15% from the top and centered */
+    padding: 20px;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+
+
+.pop-btn {
+    padding: 7px 126px;
+
+}
+
+.space-btn {  
+    margin-bottom: 40px;
+}
+
+.modal-content > p {
+    margin-bottom: 50px;
+    margin-top: 35px;
+}
+
+
+#myBtn {
+    margin-bottom: 60px; 
+}

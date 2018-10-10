@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+    <meta name="despriction" content="">
+    <!-- husk at udfylde beskrivelse til SEO i content=""-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lily+Script+One" rel="stylesheet">
+  
+ 
+  
+</head>
+
+
+<body>
+ 
+  
+  <header> 
+       <a href="javascript:history.back()"><img id="tilbage" src="images/tilbage.png">
+   </a>
+   <a href="index.html"><h1 id="mettechforside">mettech</h1></a>
+	  <a href="cart.html"><img id="bog" src="images/bog.png"></a>
+   </header>
+   
+   
+    <p class="tekst-bigger tekst">The UX learner's Guidebook: A Ramp and Reference for Aspiring UX Designers</p>
+    <p id="blue-small">by Chad Camara</p>
+    
+    <img id="uxbook" src="images/ux-bog.png">
+    
+    <p id="bog-tekst">Answers to the most frequently asked questions about learning UX Design It can be difficult for beginners or those just curious about UX Design to find out how or where to start learning. Most information about UX Design is disorganized, fragmented, or lacking in actual details. The UX Learner’s Guidebook ties it all together to provide a strong, comprehensive learning foundation by combining practical, clear examples with in-depth explanations. </p>
+   
+
+  
+  <!-- Trigger/Open The Modal -->
+
+<button id="myBtn">Add to cart</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+
+    <p class="tekst-bigger">Book added to your cart</p>
+    
+      <!-- KNAP HER med KEEP LOOKING-->
+
+<section class="button-section">
+
+<a href="bog.html" title="keep" target="_self"><button class="pop-btn tekst space-btn">
+  Keep looking
+</button></a>
+
+</section>
+
+   
+     <!-- KNAP HER med ADD GO TO CART-->
+
+<section class="button-section">
+
+<a href="cart.html" title="cart" target="_self"><button class="tekst space-btn">
+  Go to cart
+</button></a>
+
+</section>
+    
+    
+  </div>
+
+</div>
+   
+   <script>
+       
+       
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+
+</script>
+   
+</body>
+</html>
